@@ -1,0 +1,21 @@
+5.cpp:9:25: error: variable or field ‘printSequence’ declared void
+ void printSequence(std::list<int>::iterator begin, std::list<int>::iterator end, stringstream& fout)
+                         ^
+5.cpp:9:20: error: ‘list’ is not a member of ‘std’
+ void printSequence(std::list<int>::iterator begin, std::list<int>::iterator end, stringstream& fout)
+                    ^
+5.cpp:9:30: error: expected primary-expression before ‘int’
+ void printSequence(std::list<int>::iterator begin, std::list<int>::iterator end, stringstream& fout)
+                              ^
+5.cpp:9:52: error: ‘list’ is not a member of ‘std’
+ void printSequence(std::list<int>::iterator begin, std::list<int>::iterator end, stringstream& fout)
+                                                    ^
+5.cpp:9:62: error: expected primary-expression before ‘int’
+ void printSequence(std::list<int>::iterator begin, std::list<int>::iterator end, stringstream& fout)
+                                                              ^
+5.cpp:9:94: error: expected primary-expression before ‘&’ token
+ void printSequence(std::list<int>::iterator begin, std::list<int>::iterator end, stringstream& fout)
+                                                                                              ^
+5.cpp:9:96: error: ‘fout’ was not declared in this scope
+ void printSequence(std::list<int>::iterator begin, std::list<int>::iterator end, stringstream& fout)
+                                                                                                ^
